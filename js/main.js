@@ -67,7 +67,7 @@ var main = (function () {
             "about.txt": "about stuff",
             "contact.txt": "me@georgio.com",
             "Keybase.txt": "https://www.keybase.io/georgio/",
-            "Twitter.txt": "@georgionic"
+            "Twitter.txt": "twitter.com/georgionic"
         };
         return {
             getInstance: function (options) {
