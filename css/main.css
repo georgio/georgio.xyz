@@ -73,6 +73,7 @@ body {
     top: 0 !important;
     right: 7px !important;
     font-size: 35px !important;
+    font-family: CooperHewitt;
 }
 
 #sidenav {
@@ -87,6 +88,7 @@ body {
     overflow-x: hidden;
     transition: 0.3s;
     padding-top: 60px;
+    font-family: CooperHewitt;
 }
 #sidenav img {
     display: block;
