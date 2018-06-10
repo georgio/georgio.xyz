@@ -64,8 +64,8 @@ var main = (function () {
             }
         };
         Singleton.defaultOptions = {
-            "about.txt": "about stuff",
-            "contact.txt": "me@georgio.com",
+            "About.txt": "About me (tbc)",
+            "Contact.txt": "me@georgio.com",
             "Keybase.txt": "https://www.keybase.io/georgio/",
             "Twitter.txt": "twitter.com/georgionic"
         };
