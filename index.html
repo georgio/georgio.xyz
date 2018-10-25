@@ -1,27 +1,187 @@
+<!doctype html>
+
 <html>
+
 <head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Georgio Nicolas</title>
-    <link rel="icon" href="./img/favicon.png" type="image/x-icon"/>
-    <link href="./css/main.css" rel="stylesheet" type="text/css"/>
-    <script src="./js/polyfills.js"></script>
-    <script src="./js/main.js"></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Georgio Nicolas</title>
+  <meta name="description" content="I'm Georgio, an Information Security Enthusiast from Lebanon.">
+  <link href="img/favicon.png" rel="icon" type="img/png">
+  <link href="css/main.css" rel="stylesheet" media="all">
+
 </head>
+
 <body>
-    <div id="sidenav">
-        <button id="sidenavBtn">&#9776;</button>
-        <img id="profilePic" alt="Me!" src="./img/avatar.png">
-    </div>
-    <div id="container">
-        <div id="output"></div>
-        <div id="input-line" class="input-line">
-            <div id="prompt" class="prompt-color"></div>&nbsp;
-            <div>
-                <input type="text" id="cmdline" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" autofocus/>
-            </div>
+
+  <header role="banner">
+
+    <section class="row">
+      <img src="img/favicon.png" height="50" />
+      <a href="mailto:me@georgio.xyz" class="email-button" title="Send me an email" role="button"><img src="img/mail.png"
+          width="50" alt="Email Button"></a>
+    </section>
+
+  </header>
+
+  <main>
+
+    <section class="row intro">
+      <div class="column">
+        <h1>I like to find bugs in unusual places, and being accompagned by dogs on a walk.</h1>
+      </div>
+      <div class="column">
+        <img src="img/avatar.png" alt="">
+      </div>
+    </section>
+
+
+    <section class="row">
+      <div class="column">
+        <p>I'm Georgio, an Information Security Enthusiast from Lebanon currently living in Brooklyn, NY. I have been fidgeting with computers for almost 2 decades.</p>
+      </div>
+      <div class="column">
+        <p>Throughout that time, after having repaired our house computer for the first time when I was 8, I have been able to acquire good troubleshooting skills for all sorts of problems. I find pleasure in fixing bugs affecting hardware, software, and almost all stacks in between.</p>
+      </div>
+      <div class="column">
+        <p>Cryptography is a field that I find fascinating. I am currently on the lookout for any opportunities that would grant me a chance to develop my skills in that field in specific, or in information security and software engineering in general.</p>
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="row clients">
+      <a href="https://github.com/georgio"> <img src="img/github.png" height="50" alt="GitHub"> </a>
+      <a href="https://keybase.io/georgio"> <img src="img/keybase.png" height="50" alt="Keybase"> </a>
+      <a href="https://twitter.com/georgionic"> <img src="img/twitter.png" height="50" alt="Twitter" /> </a>
+    </section>
+
+    <hr>
+
+    <section class="row">
+      <div class="column">
+        <p class="question">Fields I'm interested in</p>
+        <ul style="list-style-type:disc">
+          <li>Cryptography</li>
+          <li>Number Theory</li>
+          <li>Brain-Computer Interfaces</li>
+          <li>Decision Tree Algorithms</li>
+          <li>Algebraic & Geometric Topology</li>
+          </ul>
+      </div>
+      <div class="column">
+        <p class="question">Absorbing Papers</p>
+       <ul style="list-style-type:disc">
+        <li><a href=https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf>On Computable Numbers, with an Application to the Entscheidungsproblem</a></li>
+        <li><a href=https://people.eecs.berkeley.edu/~christos/classics/Feynman.pdf>Simulating Physics with Computers</a></li>
+        <li><a href=https://courses.maths.ox.ac.uk/node/view_material/36445>Deterministic Nonperiodic Flow</a></li>
+        <li><a href=https://ee.stanford.edu/~hellman/publications/24.pdf>New Directions in Cryptography</a></li>
+        <li><a href=https://tools.ietf.org/pdf/draft-ietf-acme-acme-16.pdf>Automatic Certificate Management Environment</a></li>
+        <li><a href=https://github.com/Inria-Prosecco/proscript-messaging/raw/master/paper-longversion.pdf>Automated Verification for Secure Messaging Protocols and their Implementations: A Symbolic and Computational Approach</a></li>
+        <li><a href=http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf>Zerocash: Decentralized Anonymous Payments from Bitcoin</a></li>
+         
+       </ul>
+      </div>
+      <div class="column">
+        <p class="question">Communities I Endorse</p>
+        <ul style="list-style-type:disc">
+            <li><a href=https://nycmesh.net>NYC Mesh</a></li>
+            <li><a href=https://eff.org>Electronic Frontier Foundation</a></li>
+            <li><a href=http://livecode.nyc>livecodenyc</a></li>
+            <li><a href=https://bangbangcon.com>!!con</a></li>
+            <li><a href=https://www.allgirlscode.info>All Girls Code</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="row">
+        <div class="column">
+          <p class="question">Favorite Films</p>
+          <ul style="list-style-type:disc">
+              <li><a href=https://letterboxd.com/film/amelie>Le Fabuleux Déstin D'Amelie Poulain - Jean Pierre Jeunet</a></li>
+              <li><a href=https://letterboxd.com/film/pulp-fiction>Pulp Fiction - Quentin Tarantino</a></li>
+              <li><a href=https://letterboxd.com/film/waking-life>Waking Life - Richard Linklater</a></li>
+              <li><a href=https://letterboxd.com/film/blow-out>Blow Out - Brian De Palma</a></li>
+              <li><a href=https://letterboxd.com/film/tampopo>Tampopo - Juzo Itami</a></li>
+              <li><a href=https://letterboxd.com/film/isle-of-dogs-2018>Isle Of Dogs - Wes Anderson</a></li>
+              <li><a href=https://letterboxd.com/film/no-country-for-old-men>No Country for Old Men - Joel Coen, Ethan Coen</a></li>
+              <li><a href=https://letterboxd.com/film/call-me-by-your-name>Call Me By Your Name - Luca Guadagnino</a></li>
+              <li><a href=https://letterboxd.com/film/dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb>Dr. Strangelove - Stanley Kubrick</a></li>
+              <li><a href=https://letterboxd.com/film/waltz-with-bashir>Waltz With Bashir - Ari Folman</a></li>
+          </ul>
+</p>
         </div>
-    </div>
+        <div class="column">
+            <p class="question">Books I've recently read</p>
+            <ul style="list-style-type:disc">
+                
+                <li><a href=https://www.goodreads.com/book/show/93981.The_Interpretation_of_Dreams>The Interpretation of Dreams - Sigmund Freud</a></li>
+                <li><a href=https://www.goodreads.com/book/show/21418013-lock-in>Lock In - John Scalzi</a></li>
+                <li><a href=https://www.goodreads.com/book/show/242472.The_Black_Swan>The Black Swan - Nassim Nicholas Taleb</a></li>
+                <li><a href=https://www.goodreads.com/book/show/17244832-smart-but-stuck>Smart But Stuck - Thomas E. Brown</a></li>
+                <li><a href=https://www.goodreads.com/book/show/64582.Chaos>Chaos: Making a New Science - James Gleick</a></li>
+                <li><a href=https://www.goodreads.com/book/show/98685.Genius>Genius: The Life and Science of Richard Feynman - James Gleick</a></li>
+            </ul>
+          </div>
+        <div class="column">
+          <p class="question">Some Music</p>
+          <ul style="list-style-type:disc">
+              <li><a href=http://altjband.com>alt-J</a></li>
+              <li><a href=https://www.youtube.com/watch?v=XMv53orNKnc> Chopin Nocturne Op.9 No.2</a></li>
+              <li><a href=https://www.youtube.com/watch?v=Nr06RHaaLBI>Ziad Rahbani - W Ameh</a></li>
+              <li><a href=https://www.youtube.com/watch?v=EkPrXL-H5Qc></a>Florence + the Machine: NPR Music Tiny Desk Concert</li>
+              <li><a href=http://www.safarmusic.com></a>Safar</li>
+              <li><a href=https://www.postcardsmusic.comm></a>Postcards</li>
+              <li><a href=https://www.youtube.com/watch?v=j3_1xUu2n3w>Umm Kulthum - Alf Leila wa Leila</a></li>
+              <li><a href=https://www.youtube.com/watch?v=pJk0p-98Xzc>Wu-Tang Clan - Da Mystery Of Chessboxin</a></li>
+              <li><a href=https://www.youtube.com/watch?v=W9V-Hh0uTaI>Junip = Line of Fire</a></li>
+              <li><a href=https://www.youtube.com/watch?v=dZ9JVxQVQy4>Code Orange - Forever</a></li>
+              
+          </ul>
+        </div>
+      </section>
+
+    <hr>
+
+    <!-- <section class="row testimonials">
+      <div class="column">
+        <blockquote>"Quote from Nadim"</blockquote>
+        <div class="author">
+          <img srcset="
+          img/jan.png 1x,
+          img/jan@2x.png 2x,
+          img/jan@3x.png 3x" height="24"
+            width="24" alt="Photo of Nadim" />Nadim Kobeissi, PhD. Symbolic Software</div>
+      </div>
+    </section>
+  </main>
+-->
+
+  <footer>
+
+    <section class="row">
+      <p>Georgio Nicolas</p>
+      <p><a href="mailto:me@georgio.xyz" title="Email Me! (me@georgio.xyz)">me@georgio.xyz</a></p>
+    </section>
+
+  </footer>
+
+  <script>
+    WebFontConfig = {
+      google: {
+        families: ['Roboto:400,500:latin']
+      }
+    };
+
+    (function (a) {
+      var b = a.createElement('script'),
+        c = a.scripts[0];
+      b.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+      b.async = true;
+      c.parentNode.insertBefore(b, c);
+    })(document);
+  </script>
 </body>
+
 </html>
