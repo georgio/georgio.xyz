@@ -84,7 +84,7 @@ img {
   .column:last-of-type {
     margin-right: 0; }
 
-header .row, .row .clients, .contact-bar {
+header .row, .row .links, .contact-bar {
   align-items: center; }
 
 .intro {
@@ -145,6 +145,12 @@ a.email {
   font-weight: 400;
   margin-bottom: 20px; }
 
+  a.question{
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+  }
 mark {
   border-radius: 4px;
   color: #555;
@@ -196,17 +202,17 @@ footer, footer a {
   .column {
     margin: 20px 0; }
 
-  .clients {
+  .links {
     width: 400px;
     margin: 40px auto;
     justify-content: space-around; }
-    .clients img {
+    .links img {
       padding: 10px; } }
 @media screen and (max-width: 500px) {
   .intro {
     height: 250px; }
 
-  .clients {
+  .links {
     width: 300px; }
 
   .thumbnails a {
@@ -218,7 +224,5 @@ footer, footer a {
   .column {
     margin: 10px 0; }
 
-  .clients {
+  .links {
     width: 100px; } }
-
-/*# sourceMappingURL=main.css.map */
