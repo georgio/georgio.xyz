@@ -1,0 +1,65 @@
+{
+	"links": [
+		{
+			"title": "GitHub",
+			"url": "https://github.com/georgio",
+			"urlText": "@georgio"
+		},
+		{
+			"title": "Keybase",
+			"url": "https://keybase.io/georgio",
+			"urlText": "@georgio"
+		},
+		{
+			"title": "LinkedIn",
+			"url": "https://www.linkedin.com/in/georgionic/",
+			"urlText": "@georgionic"
+		},
+		{
+			"title": "Twitter",
+			"url": "https://twitter.com/georgionic",
+			"urlText": "@georgionic"
+		}
+	],
+	"foss": [
+		{
+			"title": "Verifpal",
+			"url": "https://verifpal.com",
+			"contributions": [
+				"Formal verification of Verifpal's semantics and passive attacker analysis methodology",
+				"Automated generation of protocol models in Coq"
+			]
+		},
+		{
+			"title": "Noise Explorer",
+			"url": "https://noiseexplorer.com/",
+			"contributions": [
+				"Test suite for protocol implementations",
+				"Implementation of Noise protocols in Rust"
+			]
+		}
+	],
+	"publishedWork": [
+		{
+			"title": "Verifpal: Cryptographic Protocol Analysis for the Real World",
+			"links": [
+				{
+					"desc": "",
+					"url": "https://eprint.iacr.org/2019/971"
+				}
+			],
+			"authors": "",
+			"venue": [
+				{
+					"title": "",
+					"url": ""
+				}
+			]
+		}
+	],
+	"nextConference": {
+		"title": "Eurocrypt 2021",
+		"url": "https://eurocrypt.iacr.org/2021",
+		"extraText": ", where I will be co-organizing an affiliated event: <a href='https://verifpal.com/events/eurocrypt2021' target='_blank'>Verifpal Workshop</a>"
+	}
+}
