@@ -1,0 +1,35 @@
+server {
+    server_name georgio.xyz www.georgio.xyz;
+
+    if ($host = www.georgio.xyz) {
+        return 301 https://georgio.xyz$request_uri;
+    }
+
+    root /var/www/georgio.xyz/html;
+    index index.html;
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    listen [::]:443 ssl ipv6only=on;
+    listen 443 ssl;
+    ssl_certificate /etc/letsencrypt/live/georgio.xyz/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/georgio.xyz/privkey.pem;
+    include /etc/letsencrypt/options-ssl-nginx.conf;
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+}
+
+server {
+    server_name georgio.xyz www.georgio.xyz;
+
+    if ($host = georgio.xyz) {
+        return 301 https://$host$request_uri;
+    }
+    if ($host = www.georgio.xyz) {
+        return 301 https://georgio.xyz$request_uri;
+    }
+
+    listen 80;
+    listen [::]:80;
+    return 404;
+}

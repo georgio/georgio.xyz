@@ -58,7 +58,7 @@
 		}
 	],
 	"nextConference": {
-		"title": "Eurocrypt 2021",
+		"title": "",
 		"url": "https://eurocrypt.iacr.org/2021",
 		"extraText": ", where I will be co-organizing an affiliated event: <a href='https://verifpal.com/events/eurocrypt2021' target='_blank'>Verifpal Workshop</a>"
 	}

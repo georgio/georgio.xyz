@@ -4,16 +4,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy": "gcloud compute scp --recurse dist/* nathan:/var/www/georgio.xyz/html/"
   },
   "dependencies": {
-    "vue": "^3.2.16"
+    "vue": "^3.2.26"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.9.2",
-    "autoprefixer": "^10.3.6",
-    "postcss": "^8.3.8",
-    "tailwindcss": "^2.2.16",
-    "vite": "^2.6.0"
+    "autoprefixer": "^10.4.1",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^2.2.19",
+    "vite": "^2.7.10"
   }
 }
