@@ -159,14 +159,14 @@
       </div>
     </div>
     <div class="py-1 font-mono">
-      <div class="font-black font-bold text-2xl">E-mail Address:</div>
+      <div class="font-bold text-2xl">E-mail Address:</div>
       <div>me[at]georgio[dot]xyz</div>
     </div>
   </div>
 </template>
 <script>
 import info from "./info.json";
-import { ref } from "vue";
+
 export default {
   mounted() {
     this.drawAttractor();
