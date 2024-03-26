@@ -24,10 +24,10 @@
       <a href="https://www.esat.kuleuven.be/cosic" target="_blank">
         COSIC group at KU Leuven
       </a>
-      as a pre-doctoral student.
+      as a doctoral student.
       <br />
       My research interests primarily revolve around the intersection of
-      Cryptography and Privacy Enhancing Technologies.
+      Cryptography, (usable) Formal Methods and Privacy Enhancing Technologies.
     </div>
 
     <div class="py-1" v-if="nextConference.title">
@@ -92,15 +92,28 @@
       <div class="font-mono text-2xl font-black">Publications and Posts:</div>
       <div class="font-mono text-base">
         -
+        <a href=""
+          >Convolution-Friendly Image Processing in FHE</a
+        >
+        (FHE.org Conference 2024)<br />
+        -
+        <a href="https://eprint.iacr.org/2023/274"
+          >Panacea: Stateless and Non-Interactive Oblivious RAM</a
+        >
+        (ACM CCSW 2023, FHE.org <a href="https://fhe.org/meetups/029-Panacea_Non-interactive_and_Stateless_Oblivious_RAM">Meetup</a> + Conference 2023)<br />
+        -
+        <a href="https://www.esat.kuleuven.be/cosic/blog/rwc-2022-a-new-security-model-uncovers-a-authentication-vulnerabilities-in-signal/"
+          >A new security model uncovers authentication vulnerabilities in Signal</a
+        > (COSIC Blog)<br />
+        -
         <a href="https://eprint.iacr.org/2019/971"
           >Verifpal: Cryptographic Protocol Analysis for the Real World</a
         >
         (ACM CCSW 2020, Indocrypt 2020, Real World Crypto 2021)<br />
         -
-        <a href="https://blog.symbolic.software/2020/04/05/dp-3t-verifpal"
-          >How Verifpal Dramatically Sped Up the Formal Modeling Efforts for a
-          New Pandemic-Tracing Protocol</a
-        ><br />
+        <a href="https://symbolic.software/blog/2020-04-05-dp3t/"
+          >Modeling DP-3T with Verifpal</a
+        > (Symbolic Software Blog)<br />
         -
         <a
           href="https://www.computer.org/csdl/proceedings-article/euros&p/2019/114800a356/1cI6f6upxi8"
@@ -108,6 +121,15 @@
           Arbitrary Noise Protocols</a
         >
         (IEEE Euro S&P 2019)<br />
+      </div>
+    </div>
+    <div class="py-1">
+      <div class="font-mono text-2xl font-black">Supervised Projects and Theses:</div>
+      <div class="font-mono text-base">
+        -
+        <a href="https://kuleuven.limo.libis.be/discovery/fulldisplay?docid=alma9993527084601488&context=L&vid=32KUL_KUL:KULeuven&search_scope=All_Content&tab=all_content_tab&lang=en"
+          >A Deductively Verifiable Implementation of Shamir Secret Sharing in Rust</a
+        > - Xander Fransen<br />
       </div>
     </div>
 
@@ -118,10 +140,8 @@
         <a href="https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA">
           Computerphile
         </a>
-        <br />
-        <a href="https://www.quantamagazine.org/tag/the-joy-of-x-podcast/">
-          The joy of x
-        </a>
+        <br />  
+          The joy of {<a href="https://www.quantamagazine.org/tag/the-joy-of-x">x</a>, <a href="https://www.quantamagazine.org/tag/the-joy-of-why">wh(y)</a>}
         <br />
         <a
           href="https://people.eecs.berkeley.edu/~christos/classics/Feynman.pdf"
