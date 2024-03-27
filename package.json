@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gcloud compute scp --recurse dist/* nathan:/var/www/georgio.xyz/html/"
+    "deploy": "wrangler pages deploy dist"
   },
   "dependencies": {
     "vue": "^3.4.21"
@@ -18,7 +18,8 @@
     "cssnano": "^6.1.2",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.1",
-    "vite": "^5.2.6"
+    "vite": "^5.2.6",
+    "wrangler": "^3.38.0"
   },
   "packageManager": "yarn@4.1.1"
 }

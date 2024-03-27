@@ -20,11 +20,11 @@
     </div>
 
     <div class="pb-1">
-      I'm a member of the
+      I'm a doctoral student at
       <a href="https://www.esat.kuleuven.be/cosic" target="_blank">
-        COSIC group at KU Leuven
-      </a>
-      as a doctoral student.
+        COSIC, KU Leuven
+      </a>.
+      
       <br />
       My research interests primarily revolve around the intersection of
       Cryptography, (usable) Formal Methods and Privacy Enhancing Technologies.
