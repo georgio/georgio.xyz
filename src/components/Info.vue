@@ -20,7 +20,7 @@
     </div>
 
     <div class="pb-1">
-      I'm a doctoral student at
+      I'm a doctoral student under the supervision of <a href="https://homes.esat.kuleuven.be/~preneel/">Bart Preneel</a> and <a href="https://nigelsmart.github.io">Nigel Smart</a> at
       <a href="https://www.esat.kuleuven.be/cosic" target="_blank">
         COSIC, KU Leuven
       </a>.
