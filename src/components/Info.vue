@@ -92,7 +92,12 @@
       <div class="font-mono text-2xl font-black">Publications and Posts:</div>
       <div class="font-mono text-base">
         -
-        <a href=""
+        <a href="https://eprint.iacr.org/2024/662"
+          >Faster Private Decision Tree Evaluation for Batched Input from Homomorphic Encryption</a
+        >
+        (SCN 2024)<br />
+        -
+        <a href="https://eprint.iacr.org/2024/559"
           >Convolution-Friendly Image Processing in FHE</a
         >
         (FHE.org Conference 2024)<br />
@@ -100,7 +105,7 @@
         <a href="https://eprint.iacr.org/2023/274"
           >Panacea: Stateless and Non-Interactive Oblivious RAM</a
         >
-        (ACM CCSW 2023, FHE.org <a href="https://fhe.org/meetups/029-Panacea_Non-interactive_and_Stateless_Oblivious_RAM">Meetup</a> + Conference 2023)<br />
+        (IEEE Euro S&P 2024, FHE.org <a href="https://fhe.org/meetups/029-Panacea_Non-interactive_and_Stateless_Oblivious_RAM">Meetup</a> + Conference 2023)<br />
         -
         <a href="https://www.esat.kuleuven.be/cosic/blog/rwc-2022-a-new-security-model-uncovers-a-authentication-vulnerabilities-in-signal/"
           >A new security model uncovers authentication vulnerabilities in Signal</a
