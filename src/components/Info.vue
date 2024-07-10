@@ -129,12 +129,14 @@
       </div>
     </div>
     <div class="py-1">
-      <div class="font-mono text-2xl font-black">Supervised Projects and Theses:</div>
+      <div class="font-mono text-2xl font-black">Supervised Masters Theses:</div>
       <div class="font-mono text-base">
+        - On Publicly Verifiable Secret Sharing Schemes and Applications
+         - Noah Knapen (2024)<br />
         -
         <a href="https://kuleuven.limo.libis.be/discovery/fulldisplay?docid=alma9993527084601488&context=L&vid=32KUL_KUL:KULeuven&search_scope=All_Content&tab=all_content_tab&lang=en"
           >A Deductively Verifiable Implementation of Shamir Secret Sharing in Rust</a
-        > - Xander Fransen<br />
+        > - Xander Fransen (2023)<br />
       </div>
     </div>
 
