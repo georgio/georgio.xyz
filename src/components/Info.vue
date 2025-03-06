@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto p-4 antialiased">
     <div class="flex items-center">
-      <div class="flex-grow-0">
+      <div class="grow-0">
         <div
           class="
             font-mono
