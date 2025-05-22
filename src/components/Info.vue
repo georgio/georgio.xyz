@@ -105,7 +105,7 @@
         <a href="https://eprint.iacr.org/2024/559"
           >Convolution-Friendly Image Processing in FHE</a
         >
-        (FHE.org Conference 2024)<br />
+        (AfricaCrypt 2025, FHE.org Conference 2024)<br />
         -
         <a href="https://eprint.iacr.org/2023/274"
           >Panacea: Stateless and Non-Interactive Oblivious RAM</a
