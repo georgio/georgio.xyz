@@ -10,14 +10,14 @@
     "deploy": "vite build; wrangler pages deploy dist"
   },
   "dependencies": {
-    "vue": "^3.5.14"
+    "vue": "^3.5.17"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.7",
+    "@tailwindcss/postcss": "^4.1.11",
     "@vitejs/plugin-vue": "^5.2.4",
     "cssnano": "^7.0.7",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^4.1.7",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
     "vite": "^6.3.5",
     "wrangler": "^3.114.0"
   },
