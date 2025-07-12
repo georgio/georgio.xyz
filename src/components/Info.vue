@@ -92,10 +92,10 @@
       <div class="font-mono text-2xl font-black">Publications and Posts:</div>
       <div class="font-mono text-base">
         -
-        <a href=""
+        <a href="https://eprint.iacr.org/2025/1268"
           >What’s the Matter? An In-Depth Security Analysis of the Matter Protocol</a
         >
-        (Preprint)<br />
+        (Pre-print)<br />
         -
         <a href="https://eprint.iacr.org/2025/576"
           >Pre-Constructed Publicly Verifiable Secret Sharing and Applications</a
