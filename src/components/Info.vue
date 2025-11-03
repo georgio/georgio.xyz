@@ -92,6 +92,11 @@
       <div class="font-mono text-2xl font-black">Publications and Posts:</div>
       <div class="font-mono text-base">
         -
+        <a href="https://eprint.iacr.org/2025/2018"
+          >Batched and Packed (Publicly) Verifiable Secret Sharing: A Unified Framework and Applications</a
+        >
+        (Preprint)<br />
+        -
         <a href="https://eprint.iacr.org/2025/1482"
           >Complex Elections via Threshold (Fully) Homomorphic Encryption</a
         >
