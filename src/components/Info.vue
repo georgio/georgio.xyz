@@ -95,7 +95,7 @@
         <a href="https://eprint.iacr.org/2025/2018"
           >Batched and Packed (Publicly) Verifiable Secret Sharing: A Unified Framework and Applications</a
         >
-        (Preprint)<br />
+        (SAC 2026)<br />
         -
         <a href="https://eprint.iacr.org/2025/1482"
           >Complex Elections via Threshold (Fully) Homomorphic Encryption</a
